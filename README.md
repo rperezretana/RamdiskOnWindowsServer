@@ -18,7 +18,7 @@ Ramdisk are in my benchmarks at least 10 times faster than phisical hd, so when 
 - Multiple file server, to be later then moved to a third party service. I managed to increase the speed of upload by adding async cronous upload to a RanDisk. The file was validated then moved to a AWS file manager, the procces used to take several seconds, now it became almost instant.
 - Game servers with a large number of users and a lot of writes to the HD. Implemented game servers with map generation, that save chunks in to HD, when the server contains hundreds of players the HD starts lagging behind and users experience lag, after running the games from RanmDisk and generating periodical backups the lag issue solved.
 
-#important
+# Important
 
 Do not store important files permanently on this disk, use it as cache or temporary files source, files will be lost after the server restarts or if the server lose power.
 After the server restarts the unit will be lost, so you may need to recreate it.
