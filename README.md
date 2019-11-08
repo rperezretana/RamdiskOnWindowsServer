@@ -16,6 +16,7 @@ Also you need to update the file to change:
 Ramdisk are in my benchmarks at least 10 times faster than phisical hd, so when performing some task that have backlog by heavy HD usage, and I dont control the source code of the application I tend to use Ramdisk as a temporary solution. Some examples:
 - Generating thousands of files/reports that need to be saved in a temporary folder before sending the file to the end user.
 - Multiple file server, to be later then moved to a third party service.
+- Game servers with a large number of users and a lot of writes to the HD.
 
 #important
 
