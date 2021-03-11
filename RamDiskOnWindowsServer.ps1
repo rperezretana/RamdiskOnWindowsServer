@@ -1,7 +1,7 @@
 # Firts install the install the iSCSI Target Server component (it is the part of the File and Storage Services role).
 # you may need to enable iSCSI Service traffic in the firewall
 
-#replace it by your computer IP, not localhost
+#replace it with the desired size
 $DiskSize = "50MB"
 
 
